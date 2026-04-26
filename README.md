@@ -1,8 +1,8 @@
-\# End-to-End MLOps Pipeline for Phishing Website Detection with Automated CI/CD and Real-Time Monitoring
+# End-to-End MLOps Pipeline for Phishing Website Detection with Automated CI/CD and Real-Time Monitoring
 
 
 
-\## Overview
+## Overview
 
 
 
@@ -18,7 +18,7 @@ The project was developed under the Technical Research (Track-II) category focus
 
 
 
-\## Problem Statement
+## Problem Statement
 
 
 
@@ -34,7 +34,7 @@ This project solves that by combining phishing detection with a full MLOps lifec
 
 
 
-\## Dataset
+## Dataset
 
 
 
@@ -52,7 +52,7 @@ This project solves that by combining phishing detection with a full MLOps lifec
 
 
 
-\## Models Evaluated
+## Models Evaluated
 
 
 
@@ -74,7 +74,7 @@ This project solves that by combining phishing detection with a full MLOps lifec
 
 
 
-\## Final Selected Model
+## Final Selected Model
 
 
 
@@ -93,30 +93,29 @@ This project solves that by combining phishing detection with a full MLOps lifec
 ---
 
 
-
-\## Implemented Phases
-
+## Implemented Phases
 
 
-\### Phase 1 – Baseline Reproduction
+
+### Phase 1 – Baseline Reproduction
 
 Reproduced published phishing detection results using classical ML models.
 
 
 
-\### Phase 2 – Model Improvement
+### Phase 2 – Model Improvement
 
 Hyperparameter tuning and advanced ensemble models improved final performance.
 
 
 
-\### Phase 3 – MLflow
+### Phase 3 – MLflow
 
 Experiment tracking, metrics logging, artifact management, model registry.
 
 
 
-\### Phase 4 – FastAPI Deployment
+### Phase 4 – FastAPI Deployment
 
 REST API with endpoints:
 
@@ -130,13 +129,13 @@ REST API with endpoints:
 
 
 
-\### Phase 5 – Dockerization
+### Phase 5 – Dockerization
 
 Containerized inference service for portable deployment.
 
 
 
-\### Phase 6 – Prometheus
+### Phase 6 – Prometheus
 
 Real-time metrics collection:
 
@@ -152,19 +151,19 @@ Real-time metrics collection:
 
 
 
-\### Phase 7 – Grafana
+### Phase 7 – Grafana
 
 Live dashboard for API and ML serving observability.
 
 
 
-\### Phase 8 – Kubeflow Compatibility
+### Phase 8 – Kubeflow Compatibility
 
 Kubeflow Pipeline YAML generated with KFP SDK.
 
 
 
-\### Phase 9 – CI/CD
+### Phase 9 – CI/CD
 
 GitHub Actions pipeline for:
 
@@ -178,7 +177,7 @@ GitHub Actions pipeline for:
 
 
 
-\### Phase 10 – Data Drift Detection
+### Phase 10 – Data Drift Detection
 
 Synthetic drift introduced in 8 features.
 
@@ -202,7 +201,7 @@ Results:
 
 
 
-\## Tech Stack
+## Tech Stack
 
 
 
@@ -232,11 +231,11 @@ Results:
 
 
 
-\## Project Structure
+## Project Structure
 
 
 
-```text
+```
 
 app/            API service
 
@@ -259,7 +258,8 @@ tests/          automated tests
 screenshots/    project evidence
 
 
-\## Run Locally
+## Run Locally
+
 Create Environment
 python -m venv .venv
 .venv\Scripts\activate
