@@ -1,0 +1,21 @@
+{
+    "model_used": "models/final_xgboost_model.pkl",
+    "reference_dataset": "data/processed/uci_phishing_processed.csv",
+    "drifted_dataset": "drift/drifted_phishing_data.csv",
+    "reference_accuracy": 0.9864,
+    "drifted_accuracy": 0.7914,
+    "accuracy_drop": 0.195,
+    "reference_precision": 0.9865,
+    "drifted_precision": 0.8494,
+    "reference_recall": 0.9864,
+    "drifted_recall": 0.7914,
+    "reference_f1": 0.9864,
+    "drifted_f1": 0.7881,
+    "f1_drop": 0.1983,
+    "total_features": 30,
+    "drifted_features_count": 8,
+    "drift_percentage": 0.2667,
+    "drift_threshold": 0.25,
+    "accuracy_drop_threshold": 0.02,
+    "retraining_required": true
+}
