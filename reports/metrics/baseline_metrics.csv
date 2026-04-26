@@ -1,0 +1,6 @@
+Model,Training Accuracy,Testing Accuracy,K-Fold Accuracy,Precision,Recall,F1 Score
+Logistic Regression,92.76,92.9,92.53,92.42,95.04,93.71
+Decision Tree,99.02,97.11,96.12,97.02,97.81,97.41
+Random Forest,99.02,97.42,97.22,96.96,98.46,97.7
+SVM,95.28,94.89,94.74,94.02,96.99,95.48
+XGBoost,96.49,96.25,95.87,95.92,97.4,96.65

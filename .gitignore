@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+mlruns/
+artifacts/
+catboost_info/
+.ipynb_checkpoints/
+.DS_Store
+
+data/raw/
+*.arff
+
+.env
+mlflow.db
+
+screenshots/

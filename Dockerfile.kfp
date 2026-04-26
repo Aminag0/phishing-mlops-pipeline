@@ -1,0 +1,12 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+COPY requirements-kfp.txt .
+
+RUN pip install --no-cache-dir -r requirements-kfp.txt
+
+COPY kfp/train_kfp_job.py ./train_kfp_job.py
+COPY data/processed ./data/processed
+
+CMD ["python", "train_kfp_job.py"]

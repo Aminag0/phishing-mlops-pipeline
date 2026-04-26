@@ -1,0 +1,14 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: phishing-training-job
+  namespace: phishing-mlops
+spec:
+  backoffLimit: 1
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: phishing-trainer
+          image: phishing-kfp-trainer:latest
+          imagePullPolicy: Never

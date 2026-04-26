@@ -1,0 +1,5 @@
+Model,Training Accuracy,Testing Accuracy,K-Fold Accuracy,Precision,Recall,F1 Score,ROC-AUC,Best Parameters
+Tuned Random Forest,99.02,97.42,97.32,96.96,98.46,97.7,99.77,"{'n_estimators': 500, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': 'log2', 'max_depth': None}"
+Tuned XGBoost,98.88,97.69,97.23,97.05,98.86,97.95,99.73,"{'subsample': 1.0, 'n_estimators': 200, 'max_depth': 9, 'learning_rate': 0.1, 'colsample_bytree': 0.8}"
+LightGBM,98.5,97.15,97.0,97.1,97.81,97.45,99.72,Manual default strong configuration
+CatBoost,97.91,96.88,96.85,96.55,97.89,97.22,99.67,Manual default strong configuration
